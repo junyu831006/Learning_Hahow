@@ -1,0 +1,17 @@
+body{
+    font-size: 16px; 
+    // color: turquoise;
+}
+$color: (
+    primary: #1EB7CD,
+);
+@mixin button {
+    padding: 20px 10px;
+    display: inline-block;
+}
+.btn{
+    border: 1px solid #1EB7CD;
+    width: 200px;
+    height: 100px;
+    +button
+}
